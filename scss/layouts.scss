@@ -1,0 +1,20 @@
+// Layouts
+%button-base {
+    letter-spacing: 1px;
+    font-family: $font;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 6px 0;
+    display: block;
+    border-radius: 20px;
+    border: 1px solid $main_color;
+    font-size: $normal_text;
+}
+
+// Mixins
+@mixin button($width, $bg, $color) {
+    @extend %button-base;
+    width: $width;
+    background-color: $bg;
+    color: $color;
+}

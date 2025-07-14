@@ -4,6 +4,275 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sensory Quiz</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <main class="main">
+      <section class="quiz-intro">
+        <div class="container">
+          <div class="wrapper">
+            <a
+              href="https://www.panpacific.com/en/hotels-and-resorts/pp-london/sensory-wellbeing.html"
+              class="logo"
+            >
+              <img
+                src="./images/logo.png"
+                alt="Pan Pacific Sensory Wellbeing logo"
+                class="logo__icon"
+              />
+            </a>
+            <div class="text">
+              <h1 class="text__title">Find Your Perfect Treatment</h1>
+              <p class="text__subtitle">
+                This 1-minute quiz will help you find <br />
+                exactly what your body and mind need
+              </p>
+            </div>
+            <button type="button" class="button">Start</button>
+          </div>
+        </div>
+        <!-- <svg
+          class="quiz-intro__bg"
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svgjs="http://svgjs.dev/svgjs"
+          viewBox="0 0 1422 800"
+        >
+          <g stroke-width="6" fill="#9b9380" stroke-linecap="round">
+            <path
+              class="cls-1"
+              d="M576.18,596.51c-54.36-14.27-111.83-4.74-164.52,12.44-65.88,21.67-129.68,55.68-199.38,61.88-81.38,8.49-153.77-30.5-182.76-110.74-23.97-64.74-19.43-142.01,16.93-201.07,40.93-68.27,125.05-100.41,198-68.16,60.86,25.53,104.87,78.66,159.68,114.33,42.29,28.39,91.48,48.65,142.39,44.34,87.74-6.23,146.68-86.33,151.33-172.64,2.47-35.52-2.31-71.76-13.36-105.45-28.22-87.22-102.35-151.75-191.09-166.87l-.18-.03c-37.19-7.14-77.03-5.77-114.04,3.53-14.28,3.56-31.6,9.26-42.68,13.89-22.42,9.15-37.96,19.11-1.67,8.89,31.02-8.32,68.04-17.86,102.02-18.51,73.93-2.92,149.89,27.47,196.27,87.52,24.06,30.64,40.66,66.7,48.54,105.41,10.77,54.88,9.17,122.66-36.27,160.55-28.24,23.54-67.81,20.92-98.68,3.48-34.58-18.59-61.13-50.75-89.13-79.31-40.05-42.48-89.23-78.14-146.91-88.2-116.75-20.99-239.26,52.9-288.04,161.69C-22.88,463.19-.96,606.74,99.3,662.03c57.49,31.24,126.12,25.44,187.47,8.64,88.14-25.23,175.98-53.98,253.94,14.78,41.09,36.62,65.37,91.1,76.47,146.39,5.4,26.71,7.72,54.02,7.03,81.23h91.98s0-194.94,0-194.94c-27.68-58.45-77.44-106.15-140.01-121.61Z"
+            />
+            <path
+              class="cls-1"
+              d="M258.21,83.5c-7.61,3.7-19.2,14.68-16.9,23.38l.03.07c1.8,2.68,7.36.22,10.31-1.23,5.79-3.02,11.37-8.2,14.51-14.13,6.68-13.2-.39-12.45-7.96-8.09Z"
+            />
+            <path
+              class="cls-1"
+              d="M519.57,752.88c.84-1.59,9.58-14.69,4.73-12.1-9.21,7.45-16.11,16.8-25.08,27.34-19.75,24.33-39.32,52.99-55.82,80.18-11.7,19.5-25.06,42.98-35.34,63.59l87.71,1.16c-32.54-17.5-53.69-44.39-35.25-73.11,18.74-29.21,41.94-59.95,59.06-87.06Z"
+            />
+          </g>
+        </svg>
+
+        <svg
+          class="quiz-intro__second-bg"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1422 800"
+        >
+          <g stroke-width="6" fill="#9b9380" stroke-linecap="round">
+            <path
+              class="cls-1"
+              d="M0,375.42c0,0,85.46,1.47,158.02,79.97c200.74,217.19,71.29,377.53,83.93,449.76
+                c0.48,2.72,1.09,5.34,1.62,7.91h32.92c-15.63-14.99-24.61-33.04-21.21-55.08
+                c6.15-39.86,107.02-238.26-102.47-449.58C125.88,381.24,0.88,275.18,0,249.18Z"
+            />
+          </g>
+        </svg> -->
+      </section>
+
+      <section class="quiz">
+        <div class="container">
+          <div class="wrapper">
+            <div class="answers">
+              <h2 class="answers__title">Physical State</h2>
+              <ul class="answers-list">
+                <li class="answers-card">
+                  <img
+                    src="./images/tired.png"
+                    alt="Tired Emoji"
+                    class="answers-card__img"
+                  />
+                  <img
+                    src="./images/selected.png"
+                    alt="Selected icon"
+                    class="choosed-img"
+                  />
+                  <p class="answers-card__text">Tired</p>
+                </li>
+                <li class="answers-card">
+                  <img
+                    src="./images/tired.png"
+                    alt="Quiz answer image"
+                    class="answers-card__img"
+                  />
+                  <img
+                    src="./images/selected.png"
+                    alt="Selected icon"
+                    class="choosed-img"
+                  />
+                  <p class="answers-card__text">Tired</p>
+                </li>
+                <li class="answers-card">
+                  <img
+                    src="./images/tired.png"
+                    alt="Quiz answer image"
+                    class="answers-card__img"
+                  />
+                  <img
+                    src="./images/selected.png"
+                    alt="Selected icon"
+                    class="choosed-img"
+                  />
+                  <p class="answers-card__text">Tired</p>
+                </li>
+                <li class="answers-card">
+                  <img
+                    src="./images/tired.png"
+                    alt="Quiz answer image"
+                    class="answers-card__img"
+                  />
+                  <img
+                    src="./images/selected.png"
+                    alt="Selected icon"
+                    class="choosed-img"
+                  />
+                  <p class="answers-card__text">Tired</p>
+                </li>
+                <li class="answers-card">
+                  <img
+                    src="./images/tired.png"
+                    alt="Quiz answer image"
+                    class="answers-card__img"
+                  />
+                  <img
+                    src="./images/selected.png"
+                    alt="Selected icon"
+                    class="choosed-img"
+                  />
+                  <p class="answers-card__text">Tired</p>
+                </li>
+                <li class="answers-card">
+                  <img
+                    src="./images/tired.png"
+                    alt="Quiz answer image"
+                    class="answers-card__img"
+                  />
+                  <img
+                    src="./images/selected.png"
+                    alt="Selected icon"
+                    class="choosed-img"
+                  />
+                  <p class="answers-card__text">Tired</p>
+                </li>
+              </ul>
+              <p class="answers__hint">Please select only one box</p>
+            </div>
+            <div class="questions">
+              <div class="navigation">
+                <a
+                  href="https://www.panpacific.com/en/hotels-and-resorts/pp-london/sensory-wellbeing.html"
+                  class="logo"
+                >
+                  <img
+                    src="./images/logo.png"
+                    alt="Pan Pacific Sensory Wellbeing logo"
+                    class="logo__icon"
+                  />
+                </a>
+                <img src="./images/close.png" alt="Close Icon" class="close" />
+              </div>
+              <div class="questions-main">
+                <p class="questions__text">
+                  Find your treatment in 4 simple steps
+                </p>
+                <ul class="questions-list">
+                  <li class="questions-item active-question" data-question="1">
+                    <div class="questions-item__number">
+                      <span>1</span>
+                    </div>
+                    <div class="questions-item__wrapper">
+                      <h3 class="questions-item__title">
+                        How are you physically feeling today?
+                      </h3>
+                      <p class="questions-item__answer"></p>
+                    </div>
+                  </li>
+                  <li class="questions-item" data-question="2">
+                    <div class="questions-item__number">
+                      <span>2</span>
+                    </div>
+                    <div class="questions-item__wrapper">
+                      <h3 class="questions-item__title">
+                        How are you physically feeling today?
+                      </h3>
+                      <p class="questions-item__answer"></p>
+                    </div>
+                  </li>
+                  <li class="questions-item" data-question="3">
+                    <div class="questions-item__number">
+                      <span>3</span>
+                    </div>
+                    <div class="questions-item__wrapper">
+                      <h3 class="questions-item__title">
+                        How are you physically feeling today?
+                      </h3>
+                      <p class="questions-item__answer"></p>
+                    </div>
+                  </li>
+                  <li class="questions-item" data-question="4">
+                    <div class="questions-item__number">
+                      <span>4</span>
+                    </div>
+                    <div class="questions-item__wrapper">
+                      <h3 class="questions-item__title">
+                        How are you physically feeling today?
+                      </h3>
+                      <p class="questions-item__answer"></p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="questions-buttons">
+                <button class="questions-buttons__btn questions-prev">
+                  Prev
+                </button>
+                <button class="questions-buttons__btn questions-next">
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./images/background.png"
+          alt="background image"
+          class="quiz-bg"
+        />
+      </section>
+    </main>
+
+    <div class="popup popup-exit">
+      <div class="popup__wrapper">
+        <img src="./images/cross.png" alt="Close Icon" class="popup__img" />
+        <h2 class="popup__title">
+          Are you sure you want to stop <br />
+          the quiz?
+        </h2>
+        <p class="popup__subtitle">You will lose your current progress.</p>
+        <div class="popup-buttons">
+          <button type="button" class="popup__btn popup__cancel">Cancel</button>
+          <button type="button" class="popup__btn popup__main">
+            Stop Quiz
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- Scripts -->
+  <script src="./js/script.js"></script>
 </html>
